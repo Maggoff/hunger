@@ -1,4 +1,4 @@
-*, ::after, ::before{
+*, *::after, *::before{
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -28,6 +28,8 @@ body{
 .container{
   margin: 0 5%;
 }
+
+/* Header */
 
 .header{
   height: 100px;
@@ -65,6 +67,10 @@ body{
   height: 150px;
   margin: 0 2%;
 }
+
+/* END Header */
+
+/* Main */
 
 .main{
   padding-top: 100px;
@@ -215,6 +221,8 @@ position: relative;
   border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 90px;
 }
+
+/* END Main */
 
 /* About */
 
@@ -381,6 +389,102 @@ position: relative;
 }
 
 /* END Team */
+
+/* Booking */
+
+.booking{
+  min-height: 675px;
+}
+
+.booking__inner{
+  padding-top: 100px;
+}
+
+.booking__container{
+  display: flex;
+}
+
+.booking__left{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-right: 40px;
+  padding-left: 10%;
+}
+
+.booking__title{
+  font-size: 36px;
+  line-height: 48px;
+  color: #000000;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+}
+
+.booking__title.line::after{
+  margin: 0 38%;
+  width: 24%;
+}
+
+.booking__items{
+  width: 100%;
+  display: flex;
+  margin-bottom: 1vw;
+}
+
+.booking__items:last-child{
+  margin-bottom: 0;
+}
+
+.booking__item{
+  width: 50%;
+  height: 60px;
+  background-color: #e5e5e5;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  padding: 10px 20px;
+  color: rgba(51, 51, 51, 0.5);
+  margin-right: 2%;
+}
+
+.booking__item:last-child{
+  margin-right: 0;
+}
+
+.booking__btn{
+  width: 100%;
+  height: 60px;
+  background-color: #e8c300;
+  border-radius: 5px;
+  font-size: 12px;
+  line-height: 20px;
+  text-align: center;
+  padding: 20px 0;
+  text-transform: uppercase;
+}
+
+.booking__right{
+  width: 50%;
+  padding-left: 40px;
+}
+
+.booking_img{
+  width: 30vw;
+  height: 30vw;
+  box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.2);
+}
+
+.booking__text{
+  font-size: 12px;
+  line-height: 20px;
+  color: rgba(51, 51, 51, 0.5);
+  padding: 40px 0;
+  text-align: center;
+}
+
+/* END Booking*/
 
 @media (max-width: 600px){
   .header__navigation{
