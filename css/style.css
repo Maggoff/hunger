@@ -734,6 +734,133 @@ position: relative;
 
 /* END Galery */
 
+/* Contact*/
+
+.contact__inner{
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact__title{
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+  text-transform: uppercase;
+  padding-bottom: 15px;
+  color: #000000;
+}
+
+.contact__title.line::after{
+  bottom: 0;
+  width: 24%;
+  margin: 0 38%;
+}
+
+.contact__under__title{
+  font-size: 18px;
+  line-height: 28px;
+  color: #000000;
+  margin: 20px 0;
+  text-align: center;
+  width: 50%;
+}
+
+.contact__form{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.contact__input{
+  width: 32%;
+  outline: none;
+  height: 60px;
+  padding: 0 20px;
+  border-radius: 5px;
+  border: none;
+  background-color: #e5e5e5;
+  color: rgba(51, 51, 51, 0.5);
+  margin-bottom: 25px;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.contact__area{
+  outline: none;
+  width: 100%;
+  padding: 15px 20px;
+  border-radius: 5px;
+  border: none;
+  background-color: #e5e5e5;
+  color: rgba(51, 51, 51, 0.5);
+  margin-bottom: 25px;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.contact__btn{
+  width: 100%;
+  height: 60px;
+  background-color: #e8c300;
+  border-radius: 5px;
+  font-size: 12px;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 20px 20px;
+}
+
+.contact__foot{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.contact__phone{
+  font-size: 14px;
+  line-height: 20px;
+  color: rgba(51, 51, 51, 0.5);
+  padding: 40px 0;
+  text-align: center;
+}
+
+/* END Contact*/
+
+.map{
+  display: block;
+}
+
+/* Footer */
+
+.footer{
+  position: relative;
+  height: 100px;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.footer__inner{
+  display: flex;
+  justify-content: center;
+}
+
+.footer__contact{
+  font-size: 20px;
+  line-height: 20px;
+  text-align: center;
+  margin: 40px 0;
+}
+
+.footer__contact:hover{
+  color: #e8c300;
+}
+
+/* END Footer */
+
 @media (max-width: 600px){
   .header__navigation{
     display: none;
