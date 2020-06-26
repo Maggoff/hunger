@@ -226,10 +226,6 @@ position: relative;
 
 /* About */
 
-.about{
-  min-height: 675px;
-}
-
 .about__inner{
   display: flex;
   padding: 100px 0;
@@ -308,7 +304,6 @@ position: relative;
 /* Team */
 
 .team{
-  min-height: 675px;
   background-image: url(../img/chef-bg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -391,10 +386,6 @@ position: relative;
 /* END Team */
 
 /* Booking */
-
-.booking{
-  min-height: 675px;
-}
 
 .booking__inner{
   padding-top: 100px;
@@ -489,7 +480,6 @@ position: relative;
 /* Specialties */
 
 .specialties{
-  min-height: 675px;
   background-image: url(../img/specialties-bg.jpg);
   background-position: center;
   background-repeat: no-repeat;
@@ -570,10 +560,6 @@ position: relative;
 
 /* Menu */
 
-.menu{
-  min-height: 400px;
-}
-
 .menu__inner{
   padding: 100px 0 70px;
 }
@@ -650,6 +636,103 @@ position: relative;
 }
 
 /* END Menu*/
+
+/* Events */
+
+.events{
+  background-image: url(../img/events-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.events__inner{
+  display: flex;
+  flex-direction: column;
+}
+
+.events__head__text{
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 0.5em;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 40px 0;
+}
+
+.events__container{
+  display: flex;
+}
+
+.events__left{
+  width: 50%;
+  padding-right: 40px;
+}
+
+.events__left .rectangle{
+  margin-left: auto;
+  position: relative;
+}
+
+.events__left .rectangle::after{
+  left: -7.5vw;
+}
+
+.events__title{
+  position: absolute;
+  font-size: 24px;
+  line-height: 24px;
+  width: 30vw;
+  height: 4vw;
+  padding: 20px 20px;
+  background-color: #000000;
+}
+
+.events__left .events__title{
+  transform: rotate(90deg);
+  right: -13vw;
+  top: 13vw;
+}
+
+.events__img{
+  width: 30vw;
+  height: 30vw;
+  box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.2);
+}
+
+.events__right{
+  width: 50%;
+  padding-left: 40px;
+}
+
+.events__right .events__title{
+  transform: rotate(-90deg);
+  left: -13vw;
+  top: 13vw;
+}
+
+.events__foot__text{
+  font-size: 12px;
+  line-height: 20px;
+  color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+  padding: 40px 0;
+}
+
+/* END Events */
+
+/* Galery */
+
+.galery{
+  display: flex;
+}
+
+.galery__img{
+  width: 25vw;
+  height: 25vw;
+}
+
+/* END Galery */
 
 @media (max-width: 600px){
   .header__navigation{
